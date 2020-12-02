@@ -6,7 +6,7 @@
 /*   By: Gkatounk <gkatounk@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/12/02 11:55:47 by Gkatounk          #+#    #+#             */
-/*   Updated: 2020/12/02 11:55:52 by Gkatounk         ###   ########.fr       */
+/*   Updated: 2020/12/02 12:20:26 by Gkatounk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,6 @@
 # define GET_NEXT_LINE_BONUS_H
 
 # include <stdlib.h>
-# include <string.h>
-# include <sys/types.h>
-# include <sys/uio.h>
 # include <unistd.h>
 
 int		get_next_line(int fd, char **line);
